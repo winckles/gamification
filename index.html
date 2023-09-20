@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Play Along!</title>
+
+  <style>
+    html {
+      --primary: #0abf53;
+      --font: 'Andale Mono', 'Menlo', 'Courier New', Courier, monospace;
+      --dark: #222;
+      --gray: #D8D8D8;
+      --white: #FFF;
+      --darkGray: #A2A2A2;
+    }
+
+    body {
+      min-height: 100vh;
+      background: linear-gradient(180deg, #FFF 75%, #FFF8F8 100%);
+      font-family: var(--font);
+      padding: 20px;
+    }
+
+    h1 {
+      color: var(--primary);
+      border-bottom: 5px solid var(--primary);
+      padding: 10px;
+      margin-top: 0px;
+      font-size: 2em;
+      font-weight: 150;
+    }
+
+    #encrypted {
+      border-color: var(--dark);
+      background-color: var(--dark);
+      color: var(--white);
+    }
+
+    .mainContainer {
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+
+    #bingo {
+    	display: block;
+      margin: 0 auto;
+      margin-top: 50px;
+    }
+
+    hr {
+      border: 1px solid var(--primary);
+      margin: 50px 0px;
+    }
+
+    .orange img {
+      width: 50px;
+      display: block;
+      margin: 0 auto;
+      margin-top: 50px;
+    }
+  </style>
+</head>
+
+<body>
+<div class="mainContainer">
+  <h1>Participation Challenge</h1>
+<iframe id="bingo" style="width:100%; height:500px" src="https://bingobaker.com#650abf68ba461088"></iframe>
+
+  <hr>
+  <a class="orange" href="https://www.adyen.com">
+    <img class="orange" src="Adyen logo - Green RGB.png">
+  </a>
+</div>
+</body>
+
+</html>
