@@ -4,79 +4,38 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
-  <link rel="manifest" href="favicon/site.webmanifest">
-  <title>Play Along!</title>
+ 
+<link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-  <style>
-    html {
-      --primary: #0abf53;
-      --font: 'Andale Mono', 'Menlo', 'Courier New', Courier, monospace;
-      --dark: #222;
-      --gray: #D8D8D8;
-      --white: #FFF;
-      --darkGray: #A2A2A2;
-    }
-
-    body {
-      min-height: 100vh;
-      background: linear-gradient(180deg, #FFF 75%, #FFF8F8 100%);
-      font-family: var(--font);
-      padding: 20px;
-    }
-
-    h1 {
-      color: var(--primary);
-      border-bottom: 5px solid var(--primary);
-      padding: 10px;
-      margin-top: 0px;
-      font-size: 2em;
-      font-weight: 150;
-    }
-
-    #encrypted {
-      border-color: var(--dark);
-      background-color: var(--dark);
-      color: var(--white);
-    }
-
-    .mainContainer {
-      max-width: 1000px;
-      margin: 0 auto;
-    }
-
-    #bingo {
-    	display: block;
-      margin: 0 auto;
-      margin-top: 50px;
-    }
-
-    hr {
-      border: 1px solid var(--primary);
-      margin: 50px 0px;
-    }
-
-    .orange img {
-      width: 50px;
-      display: block;
-      margin: 0 auto;
-      margin-top: 50px;
-    }
-  </style>
+<link rel="stylesheet" type="text/css" href="style.css">
+  <title>Beat Memory Loss!</title>
 </head>
 
 <body>
-<div class="mainContainer">
-  <h1>Participation Challenge</h1>
-<iframe id="bingo" style="width:100%; height:500px" src="https://bingobaker.com#650abf68ba461088"></iframe>
+<div class="wrap">
+<div class="game"></div>
+	<div class="modal-overlay-2">
+		<div class="modal-2">
+			<h2 class="winner">Engage, learn, win; Play Memory</h2>
+			<button class="start" style="background-color: #4CAF50;border: none;color: white;padding: 15px 32px;text-align: center;text-decoration: none;display: inline-block;font-size: 16px;">I'm ready!</button>
+			<p class="share-text">Take a trip down memory lane (pun intended) as you play this old school game and view the concepts of the presentation again</p>
+		</div>
+	</div>
 
-  <hr>
-  <a class="orange" href="https://www.adyen.com">
-    <img class="orange" src="Adyen logo - Green RGB.png">
-  </a>
-</div>
-</body>
-
+	<div class="modal-overlay">
+		<div class="modal">
+			<h2 class="winner">Nailed it!</h2>
+			<button class="restart" style="background-color: #4CAF50;border: none;color: white;padding: 15px 32px;text-align: center;text-decoration: none;display: inline-block;font-size: 16px;">Play Again?</button>
+			<p class="message">Inspiration for this code found <a href="https://codepen.io/natewiley">here</a></p>
+			<p class="share-text">Feedback? Share your thoughts with @lorence</p>
+		</div>
+	</div>
+  <footer>
+		<p class="disclaimer">All logos are property of their respective owners, No Copyright infringement intended.</p>
+	</footer>
+  </div><!-- End Wrap -->
+  </body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script type="text/javascript" src="javascript.js"></script>
 </html>
