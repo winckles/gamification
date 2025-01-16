@@ -147,7 +147,7 @@
 		{
 			name: "triforce",
 			img: "assets/triforce.gif",
-			text: "Gamification\nTriforce",
+			text: "Triforce",
 			id: 1,
 		},
 		{
@@ -159,19 +159,19 @@
 		{
 			name: "training",
 			img: "assets/yoshi.gif",
-			text: "Training Elements",
+			text: "Utrecht Kart",
 			id: 3
 		},
 		{
 			name: "presentation",
 			img: "assets/mario.gif",
-			text: "Presentation Elements",
+			text: "Mario Kart",
 			id: 4
 		}, 
 		{
 			name: "charmeleon",
 			img: "assets/charmeleon.gif",
-			text: "Evolve your training",
+			text: "Evolve",
 			id: 5
 		},
 		{
@@ -201,7 +201,7 @@
 		{
 			name: "prizes",
 			img: "assets/prizes.gif",
-			text: "Engagement\nwith rewards",
+			text: "Rewards",
 			id: 10
 		},
 		{
