@@ -177,13 +177,13 @@
 		{
 			name: "switch",
 			img: "assets/switch.gif",
-			text: "Take action!",
+			text: "PLAY",
 			id: 6
 		},
 		{
 			name: "arcade",
 			img: "assets/arcade.gif",
-			text: "Increased engagement\n& retention",
+			text: "Engagement\n& retention",
 			id: 7
 		},
 		{
